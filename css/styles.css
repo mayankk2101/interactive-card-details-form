@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.color {
+  position: relative;
+}
+
+.colorcard {
+  position: absolute;
+  left: 165px;
+  top: 184px;
+}
+
+.simplecard {
+  position: absolute;
+  left: 255px;
+  top: 470px;
+}
+
+.cardnumber {
+  position: absolute;
+  color: white;
+  top: 325px;
+  left: 196px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  font-size: 28px;
+  word-spacing: 3px;
+}
+
+.cardname {
+  position: absolute;
+  color: white;
+  font-size: 15px;
+  top: 385px;
+  left: 196px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.expdate {
+  position: absolute;
+  top: 385px;
+  left: 532px;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.num {
+  position: absolute;
+  top: 580px;
+  left: 610px;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.details {
+  color: white;
+  color: hsl(278, 68%, 11%);
+  font-size: 8.5px;
+  position: absolute;
+  top: 263px;
+  right: 225px;
+  letter-spacing: 1.5px;
+}
+
+input {
+  border-color: White;
+  border-color: hsl(270, 3%, 87%);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  width: 380px;
+  height: 45px;
+}
+
+.smallform {
+  border-color: White;
+  border-color: hsl(270, 3%, 87%);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  width: 75px;
+}
+
+form {
+  display: inline-block;
+}
+
+.smallform2 {
+  border-color: White;
+  border-color: hsl(270, 3%, 87%);
+  border-style: solid;
+  border-width: thin;
+  border-radius: 5px;
+  width: 183px;
+}
+
+.button {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 7px;
+  width: 380px;
+  margin-top: 40px;
+  height: 55px;
+  font-size: 18px;
+  background-color: white;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+}
+
+.button:hover {
+  background-color: white;
+  background-color: hsl(278, 94%, 30%);
+}
+
+svg {
+  position: absolute;
+  top: 215px;
+  right: 1160px;
+}
+
+.completesign {
+  position: absolute;
+  top: 310px;
+  right: 373px;
+}
+
+.complete {
+  color: white;
+  color: hsl(278, 68%, 11%);
+  position: absolute;
+  top: 400px;
+  right: 230px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
